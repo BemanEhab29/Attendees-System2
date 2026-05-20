@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f9fa; /* Clean light gray/white background */
+  color: #212529; /* Deep dark gray text for great readability */
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #1a1d20;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 25px;
+  margin: 10px;
+  background: #00bcd4;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.btn:hover {
+  background: #0097a7;
+}
+
+#reader {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow frame around the camera view */
+  background: white;
+}
+
+/* ==========================================
+   LIGHT MODE STATUS LABELS
+   ========================================== */
+.status-label {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px 0;
+  min-height: 24px;
+}
+
+.status-success {
+  color: #2e7d32; /* Richer green for light backgrounds */
+}
+
+.status-error {
+  color: #d32f2f; /* Richer red for light backgrounds */
+}
+
+/* ==========================================
+   LIGHT MODE ATTENDANCE TABLE STYLE
+   ========================================== */
+#pdfTarget {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: white;
+}
+
+table th,
+table td {
+  border: 1px solid #dee2e6; /* Soft, light borders */
+  padding: 14px;
+  text-align: center;
+}
+
+table th {
+  background: #e9ecef; /* Light gray table headers */
+  color: #495057;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #f8f9fa; /* Subtle alternating row stripes */
+}
